@@ -1,0 +1,60 @@
+17:43:01.306 [main] INFO  TestCases.TestCaseTimeSheet - verifying the user details 
+17:43:01.714 [main] INFO  TestCases.TestCaseTimeSheet - Account Verified Successfully 
+17:43:10.395 [main] INFO  TestCases.TestCaseTimeSheet - profile window closed
+17:43:13.415 [main] INFO  TestCases.TestCaseTimeSheet - Verifying OneCognizant
+17:43:16.728 [main] INFO  TestCases.TestCaseTimeSheet - OneCognizant verified 
+17:43:16.728 [main] INFO  TestCases.TestCaseTimeSheet - click on OneCognizant text
+17:43:19.731 [main] INFO  TestCases.TestCaseTimeSheet - driver switch to OneCognizant window
+17:43:31.257 [main] INFO  TestCases.TestCaseTimeSheet - click on search box 
+17:43:31.258 [main] INFO  TestCases.TestCaseTimeSheet - Pass the Text input (TimeSheet)
+17:43:32.608 [main] INFO  TestCases.TestCaseTimeSheet - Submit timesheet option get selected
+17:43:36.238 [main] INFO  TestCases.TestCaseTimeSheet - TimeSheet window open 
+17:43:36.303 [main] INFO  TestCases.TestCaseTimeSheet - driver switch to timeshhet window
+17:43:36.313 [main] INFO  TestCases.TestCaseTimeSheet - Verify the timeshhet page
+17:43:51.600 [main] INFO  TestCases.TestCaseTimeSheet - Page verified 
+17:43:52.890 [main] INFO  TestCases.TestCaseTimeSheet - Verify the FistThreeWeeks of timesheet 
+17:43:53.397 [main] INFO  TestCases.TestCaseTimeSheet - Weeks verified
+17:43:54.671 [main] INFO  TestCases.TestCaseTimeSheet - Current week timesheet
+17:43:54.671 [main] INFO  TestCases.TestCaseTimeSheet - search by date
+17:43:58.861 [main] INFO  TestCases.TestCaseTimeSheet - Verify the timesheet with current date
+17:43:59.079 [main] INFO  TestCases.TestCaseTimeSheet - Search by - Status
+17:43:59.079 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Approved 
+17:44:26.686 [main] INFO  TestCases.TestCaseTimeSheet - Approved status verified 
+17:44:29.972 [main] INFO  TestCases.TestCaseTimeSheet - Status name - OverDue 
+17:44:40.785 [main] INFO  TestCases.TestCaseTimeSheet - OverDue status verified 
+17:44:43.805 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Partially Approved 
+17:44:54.546 [main] INFO  TestCases.TestCaseTimeSheet - Partially Approved status verified 
+17:44:57.550 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Pending 
+17:45:08.831 [main] INFO  TestCases.TestCaseTimeSheet - Pending status verified 
+17:45:11.844 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Saved 
+17:45:22.694 [main] INFO  TestCases.TestCaseTimeSheet - Saved status verified 
+17:45:25.701 [main] INFO  TestCases.TestCaseTimeSheet - Status name - SentBackForRevision 
+17:45:36.513 [main] INFO  TestCases.TestCaseTimeSheet - SentBackforRevision status verified 
+17:45:39.524 [main] INFO  TestCases.TestCaseTimeSheet - Status name - SubmittedForApproval 
+17:45:50.421 [main] INFO  TestCases.TestCaseTimeSheet - SubmittedforApproval status verified 
+17:45:50.421 [main] INFO  TestCases.TestCaseTimeSheet - TestCases Passed 
+21:06:06.065 [main] INFO  TestCases.TestCaseTimeSheet - ****TestCase Started****
+21:06:06.252 [main] INFO  TestCases.TestCaseTimeSheet - Click on user profile
+21:06:10.500 [main] INFO  TestCases.TestCaseTimeSheet - verifying the user details 
+21:06:16.593 [main] INFO  TestCases.TestCaseTimeSheet - Account Verified Successfully 
+21:06:25.668 [main] INFO  TestCases.TestCaseTimeSheet - profile window closed
+21:06:28.791 [main] INFO  TestCases.TestCaseTimeSheet - Verifying OneCognizant
+21:06:32.597 [main] INFO  TestCases.TestCaseTimeSheet - OneCognizant verified 
+21:06:32.597 [main] INFO  TestCases.TestCaseTimeSheet - click on OneCognizant text
+21:06:35.646 [main] INFO  TestCases.TestCaseTimeSheet - driver switch to OneCognizant window
+21:06:47.368 [main] INFO  TestCases.TestCaseTimeSheet - click on search box 
+21:06:47.368 [main] INFO  TestCases.TestCaseTimeSheet - Pass the Text input (TimeSheet)
+21:06:48.976 [main] INFO  TestCases.TestCaseTimeSheet - Submit timesheet option get selected
+21:06:52.634 [main] INFO  TestCases.TestCaseTimeSheet - TimeSheet window open 
+21:06:52.686 [main] INFO  TestCases.TestCaseTimeSheet - driver switch to timeshhet window
+21:06:52.802 [main] INFO  TestCases.TestCaseTimeSheet - Verify the timeshhet page
+21:06:55.748 [main] INFO  TestCases.TestCaseTimeSheet - Page verified 
+21:06:57.072 [main] INFO  TestCases.TestCaseTimeSheet - Verify the FistThreeWeeks of timesheet 
+21:07:00.511 [main] INFO  TestCases.TestCaseTimeSheet - Weeks verified
+21:07:02.108 [main] INFO  TestCases.TestCaseTimeSheet - Current week timesheet
+21:07:02.108 [main] INFO  TestCases.TestCaseTimeSheet - search by date
+21:07:07.518 [main] INFO  TestCases.TestCaseTimeSheet - Verify the timesheet with current date
+21:07:07.864 [main] INFO  TestCases.TestCaseTimeSheet - Search by - Status
+21:07:07.864 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Approved 
+21:07:46.335 [main] INFO  TestCases.TestCaseTimeSheet - Approved status verified 
+21:07:49.672 [main] INFO  TestCases.TestCaseTimeSheet - Status name - OverDue 

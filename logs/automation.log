@@ -1,0 +1,49 @@
+21:08:01.127 [main] INFO  TestCases.TestCaseTimeSheet - OverDue status verified 
+21:08:04.163 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Partially Approved 
+21:08:15.652 [main] INFO  TestCases.TestCaseTimeSheet - Partially Approved status verified 
+21:08:18.665 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Pending 
+21:08:33.923 [main] INFO  TestCases.TestCaseTimeSheet - Pending status verified 
+21:08:36.945 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Saved 
+21:08:48.500 [main] INFO  TestCases.TestCaseTimeSheet - Saved status verified 
+21:08:51.511 [main] INFO  TestCases.TestCaseTimeSheet - Status name - SentBackForRevision 
+21:09:02.948 [main] INFO  TestCases.TestCaseTimeSheet - SentBackforRevision status verified 
+21:09:05.957 [main] INFO  TestCases.TestCaseTimeSheet - Status name - SubmittedForApproval 
+21:09:17.324 [main] INFO  TestCases.TestCaseTimeSheet - SubmittedforApproval status verified 
+21:09:17.324 [main] INFO  TestCases.TestCaseTimeSheet - TestCases Passed 
+21:10:21.044 [main] INFO  TestCases.TestCaseTimeSheet - ****TestCase Started****
+21:10:21.047 [main] INFO  TestCases.TestCaseTimeSheet - Click on user profile
+21:10:25.410 [main] INFO  TestCases.TestCaseTimeSheet - verifying the user details 
+21:10:25.865 [main] INFO  TestCases.TestCaseTimeSheet - Account Verified Successfully 
+21:10:34.510 [main] INFO  TestCases.TestCaseTimeSheet - profile window closed
+21:10:37.529 [main] INFO  TestCases.TestCaseTimeSheet - Verifying OneCognizant
+21:10:41.064 [main] INFO  TestCases.TestCaseTimeSheet - OneCognizant verified 
+21:10:41.065 [main] INFO  TestCases.TestCaseTimeSheet - click on OneCognizant text
+21:10:44.068 [main] INFO  TestCases.TestCaseTimeSheet - driver switch to OneCognizant window
+21:10:55.784 [main] INFO  TestCases.TestCaseTimeSheet - click on search box 
+21:10:55.784 [main] INFO  TestCases.TestCaseTimeSheet - Pass the Text input (TimeSheet)
+21:10:57.768 [main] INFO  TestCases.TestCaseTimeSheet - Submit timesheet option get selected
+21:11:01.811 [main] INFO  TestCases.TestCaseTimeSheet - TimeSheet window open 
+21:11:01.928 [main] INFO  TestCases.TestCaseTimeSheet - driver switch to timeshhet window
+21:11:01.938 [main] INFO  TestCases.TestCaseTimeSheet - Verify the timeshhet page
+21:11:05.179 [main] INFO  TestCases.TestCaseTimeSheet - Page verified 
+21:11:06.626 [main] INFO  TestCases.TestCaseTimeSheet - Verify the FistThreeWeeks of timesheet 
+21:11:07.951 [main] INFO  TestCases.TestCaseTimeSheet - Weeks verified
+21:11:09.453 [main] INFO  TestCases.TestCaseTimeSheet - Current week timesheet
+21:11:09.454 [main] INFO  TestCases.TestCaseTimeSheet - search by date
+21:11:15.546 [main] INFO  TestCases.TestCaseTimeSheet - Verify the timesheet with current date
+21:11:15.953 [main] INFO  TestCases.TestCaseTimeSheet - Search by - Status
+21:11:15.953 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Approved 
+21:12:02.220 [main] INFO  TestCases.TestCaseTimeSheet - Approved status verified 
+21:12:05.615 [main] INFO  TestCases.TestCaseTimeSheet - Status name - OverDue 
+21:12:17.673 [main] INFO  TestCases.TestCaseTimeSheet - OverDue status verified 
+21:12:20.696 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Partially Approved 
+21:12:32.564 [main] INFO  TestCases.TestCaseTimeSheet - Partially Approved status verified 
+21:12:35.589 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Pending 
+21:12:48.836 [main] INFO  TestCases.TestCaseTimeSheet - Pending status verified 
+21:12:51.853 [main] INFO  TestCases.TestCaseTimeSheet - Status name - Saved 
+21:13:03.269 [main] INFO  TestCases.TestCaseTimeSheet - Saved status verified 
+21:13:06.275 [main] INFO  TestCases.TestCaseTimeSheet - Status name - SentBackForRevision 
+21:13:17.551 [main] INFO  TestCases.TestCaseTimeSheet - SentBackforRevision status verified 
+21:13:20.560 [main] INFO  TestCases.TestCaseTimeSheet - Status name - SubmittedForApproval 
+21:13:31.794 [main] INFO  TestCases.TestCaseTimeSheet - SubmittedforApproval status verified 
+21:13:31.795 [main] INFO  TestCases.TestCaseTimeSheet - TestCases Passed 

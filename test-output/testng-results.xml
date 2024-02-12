@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="24" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-12T21:04:08 IST" name="Suite" finished-at="2024-02-12T21:13:33 IST" duration-ms="564864">
+    <groups>
+    </groups>
+    <test started-at="2024-02-12T21:04:08 IST" name="ChromeTest" finished-at="2024-02-12T21:09:19 IST" duration-ms="310685">
+      <class name="TestCases.TestCaseTimeSheet">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:04:10 IST" name="setUp" finished-at="2024-02-12T21:06:05 IST" duration-ms="115691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userVerification()[pri:1, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:06:06 IST" name="userVerification" finished-at="2024-02-12T21:06:25 IST" duration-ms="19649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userVerification -->
+        <test-method signature="onecognizant()[pri:2, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:06:25 IST" name="onecognizant" finished-at="2024-02-12T21:06:46 IST" duration-ms="20537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onecognizant -->
+        <test-method signature="oneCognizantFunctions(java.lang.String)[pri:3, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:06:46 IST" name="oneCognizantFunctions" finished-at="2024-02-12T21:06:52 IST" duration-ms="6373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneCognizantFunctions -->
+        <test-method signature="timeSheetNavigation()[pri:4, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:06:52 IST" name="timeSheetNavigation" finished-at="2024-02-12T21:06:57 IST" duration-ms="4360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeSheetNavigation -->
+        <test-method signature="threeweek()[pri:5, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:06:57 IST" name="threeweek" finished-at="2024-02-12T21:07:02 IST" duration-ms="5033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeweek -->
+        <test-method signature="currentdate()[pri:6, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:07:02 IST" name="currentdate" finished-at="2024-02-12T21:07:07 IST" duration-ms="5414" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot load from object array because "this.resultDate" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "this.resultDate" is null
+at PageObjects.timeSheet.dateValidationTimesheet(timeSheet.java:131)
+at TestCases.TestCaseTimeSheet.currentdate(TestCaseTimeSheet.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentdate -->
+        <test-method signature="apr()[pri:7, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:07:07 IST" name="apr" finished-at="2024-02-12T21:07:49 IST" duration-ms="41804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apr -->
+        <test-method signature="overDue()[pri:8, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:07:49 IST" name="overDue" finished-at="2024-02-12T21:08:04 IST" duration-ms="14488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overDue -->
+        <test-method signature="partially_aprv()[pri:9, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:08:04 IST" name="partially_aprv" finished-at="2024-02-12T21:08:18 IST" duration-ms="14496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partially_aprv -->
+        <test-method signature="pending()[pri:10, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:08:18 IST" name="pending" finished-at="2024-02-12T21:08:36 IST" duration-ms="18277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pending -->
+        <test-method signature="saved()[pri:11, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:08:36 IST" name="saved" finished-at="2024-02-12T21:08:51 IST" duration-ms="14565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saved -->
+        <test-method signature="sendback()[pri:12, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:08:51 IST" name="sendback" finished-at="2024-02-12T21:09:05 IST" duration-ms="14443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendback -->
+        <test-method signature="submit()[pri:13, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:09:05 IST" name="submit" finished-at="2024-02-12T21:09:17 IST" duration-ms="11371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCaseTimeSheet@7bd4937b]" started-at="2024-02-12T21:09:17 IST" name="tearDown" finished-at="2024-02-12T21:09:19 IST" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestCaseTimeSheet -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-02-12T21:09:25 IST" name="EdgeTest" finished-at="2024-02-12T21:13:33 IST" duration-ms="248429">
+      <class name="TestCases.TestCaseTimeSheet">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:09:25 IST" name="setUp" finished-at="2024-02-12T21:10:21 IST" duration-ms="55941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userVerification()[pri:1, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:10:21 IST" name="userVerification" finished-at="2024-02-12T21:10:34 IST" duration-ms="13472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userVerification -->
+        <test-method signature="onecognizant()[pri:2, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:10:34 IST" name="onecognizant" finished-at="2024-02-12T21:10:54 IST" duration-ms="20257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onecognizant -->
+        <test-method signature="oneCognizantFunctions(java.lang.String)[pri:3, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:10:54 IST" name="oneCognizantFunctions" finished-at="2024-02-12T21:11:01 IST" duration-ms="7152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneCognizantFunctions -->
+        <test-method signature="timeSheetNavigation()[pri:4, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:11:01 IST" name="timeSheetNavigation" finished-at="2024-02-12T21:11:06 IST" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeSheetNavigation -->
+        <test-method signature="threeweek()[pri:5, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:11:06 IST" name="threeweek" finished-at="2024-02-12T21:11:09 IST" duration-ms="2824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeweek -->
+        <test-method signature="currentdate()[pri:6, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:11:09 IST" name="currentdate" finished-at="2024-02-12T21:11:15 IST" duration-ms="6096" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot load from object array because "this.resultDate" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot load from object array because "this.resultDate" is null
+at PageObjects.timeSheet.dateValidationTimesheet(timeSheet.java:131)
+at TestCases.TestCaseTimeSheet.currentdate(TestCaseTimeSheet.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentdate -->
+        <test-method signature="apr()[pri:7, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:11:15 IST" name="apr" finished-at="2024-02-12T21:12:05 IST" duration-ms="49658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apr -->
+        <test-method signature="overDue()[pri:8, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:12:05 IST" name="overDue" finished-at="2024-02-12T21:12:20 IST" duration-ms="15074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overDue -->
+        <test-method signature="partially_aprv()[pri:9, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:12:20 IST" name="partially_aprv" finished-at="2024-02-12T21:12:35 IST" duration-ms="14887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partially_aprv -->
+        <test-method signature="pending()[pri:10, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:12:35 IST" name="pending" finished-at="2024-02-12T21:12:51 IST" duration-ms="16266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pending -->
+        <test-method signature="saved()[pri:11, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:12:51 IST" name="saved" finished-at="2024-02-12T21:13:06 IST" duration-ms="14421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saved -->
+        <test-method signature="sendback()[pri:12, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:13:06 IST" name="sendback" finished-at="2024-02-12T21:13:20 IST" duration-ms="14283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendback -->
+        <test-method signature="submit()[pri:13, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:13:20 IST" name="submit" finished-at="2024-02-12T21:13:31 IST" duration-ms="11237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCaseTimeSheet@428640fa]" started-at="2024-02-12T21:13:31 IST" name="tearDown" finished-at="2024-02-12T21:13:33 IST" duration-ms="1723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestCaseTimeSheet -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
